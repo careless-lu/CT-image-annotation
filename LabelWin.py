@@ -9,7 +9,7 @@ from PyQt5.QtGui import QPixmap
 from PyQt5.QtWidgets import QMainWindow
 from PyQt5.QtWidgets import QApplication, QMessageBox
 
-from designer.Label_APP import Ui_MainWindow
+from Label_APP import Ui_MainWindow
 from visuals.view import GraphicView, GraphicScene, GraphicItem
 from util.qt_tools import clip_Qpos, Qpixmap2arr
 
