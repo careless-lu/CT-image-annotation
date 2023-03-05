@@ -1,0 +1,9 @@
+opencv-python
+pyqt5
+pyside2
+simpleitk
+matplotlib
+albumentations
+pytorch
+numpy
+qt_material
