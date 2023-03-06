@@ -1,15 +1,15 @@
 # CT图像标注系统
 
-OpenCV课程结课作业，使用Pyqt5制作了交互式CT图像显示与标注系统
+OpenCV课程结课作业，使用Pyqt5制作了交互式CT图像显示与标注系统。
 
 ## 系统环境
-- 本项目测试于Python3.9
+- 本项目测试于Python3.9。
 
 - 使用到的库详见[requirements.txt](./requirements.txt)文件，其中使用了simpleitk库将DICOM类型的CT数据转换为array，pytorch库仅用于读取以pt文件存储的CT图像数据，以上两库为可选。
   
 
 ## 数据下载
-可以从[此处](https://drive.google.com/drive/folders/1z-UmHsR2IqKwHsbxdKyMTT59qmnDEh6V?usp=share_link)下载表示相同CT数据的3种格式：DICOM、图像、pt序列，仅用于测试本项目代码
+可以从[此处](https://drive.google.com/drive/folders/1z-UmHsR2IqKwHsbxdKyMTT59qmnDEh6V?usp=share_link)下载表示相同CT数据的3种格式：DICOM、图像、pt序列，仅用于测试本项目代码。
 
 ## 系统特性
 - 支持多种数据格式的打开读取，包括DICOM类型，各种图像类型如PNG、JPG、TIF、BMP，以及保存的三维的tensor。
